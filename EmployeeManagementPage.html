@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management Page</title>
+    <link rel="stylesheet" href="../CSS/EmployeeManagement.css">
+
+</head>
+<body>
+    <div class="nav">
+   
+    <div class="nav1">
+        <h1>Employee Management Page</h1>
+   
+
+    </div>
+
+    <div class="nav2">
+        <nav>
+        <a href="#home">Home</a> 
+        <a href="#about">About</a> 
+        <a href="#contact">Contact</a> 
+        </nav>
+    </div>
+
+    
+    </div>
+
+
+<main class="container">
+    <section id="home" class="info-section">
+        <h2>Employee Management</h2>
+        <p>Welcome to the Employee Management Page. Here we Manage employee information, departments, designations, and employment status.</p>
+
+    </section>
+    <br>
+    <section id="about" class="info-section">
+        <h2>About Us</h2>
+        <p>We are a leading company in employee management, providing comprehensive solutions for managing employee information, departments, designations, and employment status.</p>
+    </section>
+    <br>
+    <section class="toolbar">
+        <input type="search" id="search" name="search" placeholder="Search employee...">
+
+        <button type="button" class="add-btn"> + Add Employee</button>
+    </section>
+
+    <section id="Emptable" class="table-section">
+    <h2>Employee List</h2>
+    <div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th scope="col">Employee ID</th>
+                <th scope="col">Employee Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Department</th>
+                <th scope="col">Designation</th>
+                <th scope="col">Employee Status</th>
+                <th scope="col">Action</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EMP101</td>
+                <td>Rahul Sharma</td>
+                <td>rahul@gmail.com</td>
+                <td>IT</td>
+                <td>Software Developer</td>
+                <td><span class="status active">Active</span></td>
+                        <td class="actions">
+                            <button type="button" class="view-btn">View</button>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+            </tr>
+            <tr>
+                <td>EMP102</td>
+                <td>Priya Patil</td>
+                <td>priya@gmail.com</td>
+                <td>HR</td>
+                <td>HR Executive</td>
+                <td><span class="status active">Active</span></td>
+                        <td class="actions">
+                            <button type="button" class="view-btn">View</button>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+            </tr>
+
+                <tr>
+                <td>EMP103</td>
+                <td>Amit verma</td>
+                <td>amit@gmail.com</td>
+                <td>Finance</td>
+                <td>Accountant</td>
+                <td><span class="status inactive">Inactive</span></td>
+                        <td class="actions">
+                            <button type="button" class="view-btn">View</button>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+            </tr>
+
+            <tr>
+                <td>EMP104</td>
+                <td>Neha Joshi</td>
+                <td>neha@gmail.com</td>
+                <td>IT</td>
+                <td>Frontend Developer</td>
+                <td><span class="status active">Active</span></td>
+                        <td class="actions">
+                            <button type="button" class="view-btn">View</button>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+            </tr>
+    <tr>
+                <td>EMP105</td>
+                <td>Rohit Deshmukh</td>
+                <td>rohit@gmail.com</td>
+                <td>Marketing</td>
+                <td>Marketing Executive</td>
+                <td><span class="status active">Active</span></td>
+                        <td class="actions">
+                            <button type="button" class="view-btn">View</button>
+                            <button type="button" class="edit-btn">Edit</button>
+                            <button type="button" class="delete-btn">Delete</button>
+                        </td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+    </div>
+    </section>
+
+</main>
+<footer>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@employeemanagement.com</p>
+        <p>Mobile No.:<a href="tel:8626083826">8626083826</a></p>
+
+    </section>
+    
+    <p>&copy; 2024 Employee Management System. All rights reserved.</p>
+</footer>
+    
+</body>
+</html>
